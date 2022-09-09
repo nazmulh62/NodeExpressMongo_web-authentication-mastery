@@ -1,9 +1,9 @@
-## Level 1: Database matching
+## Lesson 1: Database matching
 
 - save(), find({property: value})
 - if hacker can access our database then our data is too much human readable
 
-## Level 2: Database Encryption
+## Lesson 2: Database Encryption
 
 - read mongoose encryption documentation: https://www.npmjs.com/package/mongoose-encryption
 - install mongoose encryption `npm install mongoose-encryption`
@@ -41,7 +41,7 @@
   User = mongoose.model("User", userSchema);
   ```
 
-## Level 3: Hashing password
+## Lesson 3: Hashing password
 
 - no cncryption key; we will use hashing algorithm
 - hackers can not convert to plain text as no encryption key is available
@@ -76,7 +76,7 @@
   });
   ```
 
-## Level 4: Hashing + salting password
+## Lesson 4: Hashing + salting password
 
 - we can hash the password with some random number(salting)
 - install bcrypt npm package `npm install bcrypt`
@@ -121,7 +121,7 @@
   });
   ```
 
-## Level 5: Cookies & Session with passport
+## Lesson 5: Cookies & Session with passport
 
 - passport local strategy
 
