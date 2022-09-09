@@ -660,7 +660,7 @@ app.get("/register", checkLoggedIn, (req, res) => {
   module.exports = app;
   ```
 
-## Level 6: Google OAuth with passport session based
+## Lesson 6: Google OAuth with passport session based
 
 - setup database name in db and also for session
 - change in schema
@@ -843,7 +843,7 @@ app.get("/register", checkLoggedIn, (req, res) => {
   module.exports = app;
   ```
 
-## Level 7: passport-jwt (token based)
+## Lesson 7: passport-jwt (token based)
 
 - how token based works
   - user register using username, password to the server -> server creates a token for the user -> so next time when user make any request server give access by validating the given token
